@@ -3,7 +3,7 @@
 ## Overview
 SQLance is a machine learning pipeline that fine-tunes a Large Language Model to translate natural language questions into executable SQL queries. This project demonstrates the implementation of Parameter-Efficient Fine-Tuning (PEFT) using QLoRA to train the model efficiently. 
 
-Through this pipeline, the model's accuracy in generating valid, context-aware SQL queries improved from a baseline of 0.00% to 94.00% on the evaluation holdout set[cite: 1].
+Through this pipeline, the model's accuracy in generating valid, context-aware SQL queries improved from a baseline of 0.00%(fails due to unstructured, chatty output) to 94.00% on the evaluation holdout set[cite: 1].
 
 ## Repository Contents
 * `Text-to-SQL.ipynb`: The core Jupyter Notebook containing the full training, quantization, and evaluation pipeline[cite: 1].
